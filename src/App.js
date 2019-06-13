@@ -2,12 +2,11 @@ import React from "react";
 import "./App.css";
 
 import MedalData from "./data/medal-data.json";
-import CountryListComponent from "./components/CountryListComponent";
+import CountryListComponent from "./components/countryListComponent";
 
 function App() {
 	// sets the data for the medailes of a country.
 	// TODO: if multiple country data sets are present, use a Map function around this.
-	const medalCount = MedalData.NOCMedals.Medals;
 	const noc = MedalData.NOCMedals.NOC;
 	const sportslist = MedalData.SportList;
 
