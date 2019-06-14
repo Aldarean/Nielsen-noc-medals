@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 import MedalData from "./data/medal-data.json";
-import CountryListComponent from "./components/countryListComponent";
+import CountryListComponent from "./components/CountryListComponent";
 
 function App() {
 	// sets the data for the medailes of a country.
